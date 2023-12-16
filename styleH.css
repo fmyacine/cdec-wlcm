@@ -1,0 +1,124 @@
+body{
+  background-image: url(./assets/oldpaperBG.jpg);
+
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+.navbar{
+  padding: 3.7% 13% 0;
+  background-color: #0a0909;
+}
+
+span{
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+#logo{
+  width: 8rem;
+  height: 8rem;
+}
+
+svg{
+  rotate: 180deg;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  text-transform: uppercase;
+  margin-left: 12px;
+}
+
+.text{
+  padding: 0 13% 0;
+  margin: 0;
+  padding: 0;
+}
+
+#content{
+  display: flex;
+  height: 70vh;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 0 13% 0;
+  
+  top: 200px;
+}
+
+.text h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+
+h1 span{
+  font-weight: bold;
+  font: 700;
+}
+
+.text p{
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+#content img{
+  filter: drop-shadow(0 24px 61px rgba(255,255,255,0.5));
+  width: 15rem;
+  margin-left: 400px;
+}
+
+#events{
+  background: #0a0909;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#events h1{
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 25px 0 50px; 
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+.event{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  margin-bottom: 75px;
+}
+
+.eventText{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.event p {
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 30%;
+}
+
+.plm{
+  width: 80%;
+  height: 60%;
+}
+
+.carousel{
+  width: 50%;
+  height: 50%;
+}
+
+.carousel-item {
+  padding: 0 15% 0;
+}
