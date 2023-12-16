@@ -1,12 +1,18 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+html{
+  margin: 0;
+  padding: 0;
+}
 body{
   background-image: url(./assets/oldpaperBG.jpg);
-
+  margin: 0;
   font-family: 'Inter', sans-serif;
-  color: #fff;
+  color: #f3ecec;
 }
 
 .navbar{
-  padding: 3.7% 13% 0;
+  padding: 3.6% 13% 0;
   background-color: #0a0909;
 }
 
@@ -19,7 +25,7 @@ span{
   height: 8rem;
 }
 
-svg{
+#svg{
   rotate: 180deg;
   height: 40%;
   width: 100%;
@@ -91,34 +97,152 @@ h1 span{
 .event{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 80vw;
+  width: 97vw;
   margin-bottom: 75px;
+  padding: 0 13%;
 }
 
 .eventText{
   display: flex;
   flex-direction: column;
+  width: 80%;
 }
 
 
 .event p {
   font-size: 24px;
   font-weight: 500;
-  padding-right: 30%;
+  width: 70%;
 }
 
-.plm{
-  width: 80%;
-  height: 60%;
-}
 
 .carousel{
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
 }
 
 .carousel-item {
   padding: 0 15% 0;
+}
+
+#teams{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 13%;
+  width: 97vw;
+  flex-wrap: wrap;
+}
+
+#teams div{
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  width: 30%;
+  background-color: #0a0909;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-size: 24px;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  border-radius: 12px;
+  transition-delay: 50ms;
+  transition-duration: 100ms;
+  transition-property: all;
+}
+
+#teams div svg{
+  margin-bottom: 40px;
+  width: 50px;
+}
+
+#ourteams {
+  text-align: center;
+  margin: 2rem auto 4rem;
+}
+
+#ourteams h2{
+  text-transform: capitalize;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#teams p{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#teams div:hover{
+  width: 35%;
+}
+
+#session{
+  background: #0a0909;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Pixelify Sans', sans-serif;
+  padding: 0 13%;
+}
+
+#session h1{
+  font-weight: bold;
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+}
+
+#session h2{
+  text-transform: capitalize;
+  margin-bottom: 70px;
+}
+
+#carouselses{
+  margin: 0 auto;
+  width: 80vw;
+  
+}
+
+#crl{
+  text-align: center;
+  margin-bottom: 35px ;
+}
+
+#crl img{
+  width: 50%;
+  height: 50%; 
+}
+
+.tex{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tex h1{
+  text-transform: uppercase;
+  font-size: 30px; 
+}
+
+.sess{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sess img{
+  width: 20%;
+  height: 30%;
+}
+
+.sess .tex p{
+  width: 60%;
 }
