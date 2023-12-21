@@ -241,8 +241,15 @@ h1 span{
 .sess img{
   width: 20%;
   height: 30%;
+  transition-delay: 50ms;
+  transition-duration: 100ms;
 }
 
 .sess .tex p{
   width: 60%;
+}
+
+.sess img:hover{
+  width: 30%;
+  height: 30%;
 }
